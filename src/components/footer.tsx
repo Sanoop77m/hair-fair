@@ -19,7 +19,7 @@ export function Footer() {
               color="white"
               className="mb-4"
             >
-              Material Tailwind
+              Hair Fair
             </Typography>
             <Typography color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.

@@ -5,28 +5,28 @@ import { Typography, Card } from "@material-tailwind/react";
 
 const FAQS = [
   {
-    title: "How do I get started?",
-    desc: "Getting started is easy! Simply [Provide a brief overview of the initial steps or link to a detailed guide].",
+    title: "How effective is a hair transplant procedure?",
+    desc: "A hair transplant restores natural hairlines and density. Success depends on technique (FUE, FUT), donor hair quality, and surgeon’s expertise. Perfect graft placement ensures natural-looking results.",
   },
   {
-    title: "Is there a free trial available?",
-    desc: "Yes, we offer a 30 days free trial so you can experience our mobile application with no commitment.",
+    title: "Is a hair transplant safe?",
+    desc: "Yes, when performed by skilled and certified surgeons in a medical environment. Procedures are minimally invasive, usually completed in a few hours, and provide permanent results.",
   },
   {
-    title: "How can I upgrade my account?",
-    desc: "To upgrade your account, log in and navigate to the [Upgrade Account] section in your dashboard. Follow the prompts to select your preferred plan.",
+    title: "Are there risks or complications?",
+    desc: "Hair transplants are generally safe. Mild side effects may include redness, itching, swelling, or temporary acne in the transplanted area. Rarely, improper technique can cause scarring or poor growth.",
   },
   {
-    title: "Can I cancel my subscription anytime?",
-    desc: "Absolutely, you can cancel your subscription at any time with no questions asked. Your subscription will remain active until the end of the current billing cycle.",
+    title: "What is the difference between FUT and FUE?",
+    desc: "FUT (Follicular Unit Transplant): A strip of scalp is removed, follicles separated, and implanted. Leaves a linear scar. FUE (Follicular Unit Extraction): Individual follicles are removed using micromotors and transplanted. Leaves minimal scars.",
   },
   {
-    title: "How can I upgrade my account to paid?",
-    desc: "To upgrade your account, log in and navigate to the [Upgrade Account] section in your dashboard. Follow the prompts to select your preferred plan.",
+    title: "How does the FUE procedure work?",
+    desc: " Donor hair extraction: Follicles are taken from the back of the head under local anesthesia.",
   },
   {
-    title: "What if I need help or have technical issues?",
-    desc: "Our dedicated support team is here to assist you. Reach out via [mention preferred support channels, e.g., live chat, email, or phone], and we'll get back to you promptly.",
+    title: "What is the success rate of hair transplantation?",
+    desc: "Average survival rate varies by clinic, but high-quality procedures (like FUE) show 90%+graft survival rates. Success depends on the surgeon’s skills, patient health, and properaftercare.",
   },
 ];
 

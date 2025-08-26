@@ -29,7 +29,7 @@ function Hero() {
                 color="white"
                 className="flex justify-center items-center gap-3"
                 onClick={() =>
-                  window.open("https://wa.me/919072345326", "_blank")
+                  window.open("https://wa.me/919048406969", "_blank")
                 }
               >
                 <MessageSquare className="w-6 h-6" />
