@@ -60,16 +60,29 @@ export default function CustomSection({
   const renderContent = () => (
     <div className="space-y-6">
       {subtitle && (
-        <Typography variant="h6" color="blue" className="font-medium">
+        <Typography
+          variant="h6"
+          color="blue"
+          className="font-medium"
+          {...({} as any)}
+        >
           {subtitle}
         </Typography>
       )}
 
-      <Typography variant="h2" className={`font-bold ${textColor}`}>
+      <Typography
+        variant="h2"
+        className={`font-bold ${textColor}`}
+        {...({} as any)}
+      >
         {title}
       </Typography>
 
-      <Typography variant="paragraph" className={`${textColor} opacity-80`}>
+      <Typography
+        variant="paragraph"
+        className={`${textColor} opacity-80`}
+        {...({} as any)}
+      >
         {description}
       </Typography>
 
@@ -84,12 +97,14 @@ export default function CustomSection({
                 <Typography
                   variant="h6"
                   className={`font-semibold ${textColor}`}
+                  {...({} as any)}
                 >
                   {feature.title}
                 </Typography>
                 <Typography
                   variant="small"
                   className={`${textColor} opacity-70`}
+                  {...({} as any)}
                 >
                   {feature.description}
                 </Typography>
@@ -106,6 +121,7 @@ export default function CustomSection({
             color={buttonColor as any}
             className="flex items-center gap-2"
             onClick={() => buttonLink && window.open(buttonLink, "_blank")}
+            {...({} as any)}
           >
             {buttonText}
           </Button>
@@ -177,12 +193,14 @@ export default function CustomSection({
                 <Typography
                   variant="h5"
                   className={`font-semibold mb-2 ${textColor}`}
+                  {...({} as any)}
                 >
                   {feature.title}
                 </Typography>
                 <Typography
                   variant="small"
                   className={`${textColor} opacity-70`}
+                  {...({} as any)}
                 >
                   {feature.description}
                 </Typography>
