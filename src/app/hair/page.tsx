@@ -294,7 +294,7 @@ export default function HairPage() {
             </h2>
             <p className="text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
               Book your consultation today and take the first step towards
-              achieving the hair you've always dreamed of.
+              achieving the hair you&apos;ve always dreamed of.
             </p>
             <button className="bg-white text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors">
               Book Consultation

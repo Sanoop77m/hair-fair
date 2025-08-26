@@ -16,8 +16,8 @@ export default function FAQPage() {
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 Find answers to common questions about our hair and skin
-                treatments, appointments, and services. Can't find what you're
-                looking for? Contact us!
+                treatments, appointments, and services. Can&apos;t find what
+                you&apos;re looking for? Contact us!
               </p>
             </div>
           </div>
@@ -38,7 +38,8 @@ export default function FAQPage() {
                 Still Need Help?
               </h2>
               <p className="text-lg text-gray-600">
-                Can't find the answer you're looking for? We're here to help!
+                Can&apos;t find the answer you&apos;re looking for? We&apos;re
+                here to help!
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -91,7 +92,8 @@ export default function FAQPage() {
                   Email Us
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Send us a detailed message and we'll get back to you quickly.
+                  Send us a detailed message and we&apos;ll get back to you
+                  quickly.
                 </p>
                 <a
                   href="mailto:info@hairfair.com"

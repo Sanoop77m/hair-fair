@@ -8,6 +8,7 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 import logo from "../../public/image/logo.png";
 
 interface NavItemProps {
@@ -86,9 +87,11 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <Link href="/">
-            <img
-              src={logo.src}
+            <Image
+              src={logo}
               alt="Hair Fair Logo"
+              width={32}
+              height={32}
               className="h-8 w-auto mr-4 cursor-pointer"
             />
           </Link>

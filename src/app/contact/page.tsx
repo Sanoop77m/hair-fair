@@ -14,8 +14,8 @@ export default function ContactPage() {
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 Get in touch with us for consultations, appointments, or any
-                questions. We're here to help you achieve your hair and skin
-                goals.
+                questions. We&apos;re here to help you achieve your hair and
+                skin goals.
               </p>
             </div>
           </div>
@@ -391,7 +391,7 @@ export default function ContactPage() {
                   </h3>
                   <p className="text-gray-600">
                     Please bring a valid ID, any relevant medical history, and a
-                    list of current medications or treatments you're using.
+                    list of current medications or treatments you&apos;re using.
                   </p>
                 </div>
                 <div>

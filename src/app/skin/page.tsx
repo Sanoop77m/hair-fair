@@ -117,8 +117,8 @@ export default function SkinPage() {
                   Skin Rejuvenation
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Restore your skin's natural glow with advanced rejuvenation
-                  treatments.
+                  Restore your skin&apos;s natural glow with advanced
+                  rejuvenation treatments.
                 </p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• Microdermabrasion</li>
