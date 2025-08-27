@@ -4,13 +4,13 @@ export default function ContactPage() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div className="min-h-screen bg-[#212121]">
         {/* Hero Section */}
-        <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+        <div className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
-              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-                Contact <span className="text-blue-600">Us</span>
+              <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+                Contact <span className="text-gray-600">Us</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 Get in touch with us for consultations, appointments, or any
@@ -135,7 +135,7 @@ export default function ContactPage() {
 
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                    className="w-full bg-black text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                   >
                     Send Message
                   </button>
@@ -357,82 +357,6 @@ export default function ContactPage() {
                 <p className="text-sm text-gray-400 mt-2">
                   123 Beauty Street, Downtown District
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* FAQ Section */}
-        <div className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Frequently Asked Questions
-              </h2>
-              <p className="text-lg text-gray-600">
-                Quick answers to common questions about our services and
-                appointments.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    How do I book an appointment?
-                  </h3>
-                  <p className="text-gray-600">
-                    You can book an appointment by calling us, filling out our
-                    contact form, or visiting our clinic in person.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    What should I bring to my first visit?
-                  </h3>
-                  <p className="text-gray-600">
-                    Please bring a valid ID, any relevant medical history, and a
-                    list of current medications or treatments you&apos;re using.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Do you accept insurance?
-                  </h3>
-                  <p className="text-gray-600">
-                    We accept most major insurance plans. Please contact us to
-                    verify your specific coverage before your appointment.
-                  </p>
-                </div>
-              </div>
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    How long does a consultation take?
-                  </h3>
-                  <p className="text-gray-600">
-                    Initial consultations typically take 30-45 minutes,
-                    including a thorough assessment and treatment planning.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    What are your cancellation policies?
-                  </h3>
-                  <p className="text-gray-600">
-                    We require 24-hour notice for appointment cancellations.
-                    Late cancellations may incur a fee.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    Do you offer emergency services?
-                  </h3>
-                  <p className="text-gray-600">
-                    For medical emergencies, please call 911 or visit the
-                    nearest emergency room. We handle non-emergency skin and
-                    hair concerns during business hours.
-                  </p>
-                </div>
               </div>
             </div>
           </div>

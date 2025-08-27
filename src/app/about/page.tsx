@@ -4,13 +4,13 @@ export default function AboutPage() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div className="min-h-screen bg-[#212121]">
         {/* Hero Section */}
-        <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+        <div className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
-              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-                About <span className="text-blue-600">Hair Fair</span>
+              <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+                About <span className="text-gray-600">Hair Fair</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 We are dedicated to providing the highest quality hair and skin
@@ -41,7 +41,7 @@ export default function AboutPage() {
                   maintaining the highest standards of quality and safety.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
+              <div className="bg-gradient-to-br from-gray-700 to-black rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-4">Why Choose Us?</h3>
                 <ul className="space-y-3">
                   <li className="flex items-center">

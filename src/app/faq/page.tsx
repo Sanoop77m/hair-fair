@@ -5,14 +5,14 @@ export default function FAQPage() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
+      <div className="min-h-screen bg-[#212121]">
         {/* Hero Section */}
-        <div className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+        <div className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
-              <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
                 Frequently Asked{" "}
-                <span className="text-green-600">Questions</span>
+                <span className="text-gray-600">Questions</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 Find answers to common questions about our hair and skin
