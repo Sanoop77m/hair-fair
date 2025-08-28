@@ -26,19 +26,12 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Our Mission
-                </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  At Hair Fair, we believe that everyone deserves to feel
-                  confident and beautiful. Our mission is to provide innovative,
-                  effective, and safe hair and skin care solutions that enhance
-                  your natural beauty and boost your self-confidence.
-                </p>
-                <p className="text-lg text-gray-600">
-                  We combine cutting-edge technology with time-tested natural
-                  ingredients to create products that deliver real results while
-                  maintaining the highest standards of quality and safety.
+                  At Hair Fair, we redefine beauty by combining advanced skin
+                  and hair care with a holistic approach to well-being. As a
+                  trusted skin and hair clinic in Kerala, our mission is to
+                  provide safe, effective, and personalized treatments that
+                  enhance your natural beauty while boosting your confidence.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-gray-700 to-black rounded-2xl p-8 text-white">
@@ -67,7 +60,7 @@ export default function AboutPage() {
         </div>
 
         {/* Team Section */}
-        <div className="py-16 bg-gray-50">
+        {/* <div className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -79,7 +72,6 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Team Member 1 */}
               <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="h-48 bg-gradient-to-br from-blue-400 to-purple-500"></div>
                 <div className="p-6">
@@ -94,7 +86,6 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Team Member 2 */}
               <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="h-48 bg-gradient-to-br from-green-400 to-blue-500"></div>
                 <div className="p-6">
@@ -109,7 +100,6 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Team Member 3 */}
               <div className="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-500"></div>
                 <div className="p-6">
@@ -122,6 +112,30 @@ export default function AboutPage() {
                     treatments.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        {/* Key Metrics Section */}
+        <div className="py-16 bg-gradient-to-b from-black to-gray-800">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-2 gap-8">
+              <div className="text-center p-8 border-b border-r border-gray-600">
+                <div className="text-5xl font-bold text-white mb-2">11+</div>
+                <div className="text-gray-300">Years of Expertise</div>
+              </div>
+              <div className="text-center p-8 border-t border-r border-gray-600">
+                <div className="text-5xl font-bold text-white mb-2">20k+</div>
+                <div className="text-gray-300">Happy Clients</div>
+              </div>
+              <div className="text-center p-8 border-b border-l border-gray-600">
+                <div className="text-5xl font-bold text-white mb-2">30+</div>
+                <div className="text-gray-300">Advanced Treatments</div>
+              </div>
+              <div className="text-center p-8 border-t border-l border-gray-600">
+                <div className="text-5xl font-bold text-white mb-2">15k+</div>
+                <div className="text-gray-300">Successful Transformations</div>
               </div>
             </div>
           </div>
@@ -140,9 +154,9 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
-                    className="w-8 h-8 text-blue-600"
+                    className="w-8 h-8 text-gray-600"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -164,9 +178,9 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
-                    className="w-8 h-8 text-green-600"
+                    className="w-8 h-8 text-gray-600"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -186,9 +200,9 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
-                    className="w-8 h-8 text-purple-600"
+                    className="w-8 h-8 text-gray-600"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

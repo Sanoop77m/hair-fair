@@ -58,7 +58,7 @@ export default function CustomSection({
   containerClassName = "",
 }: CustomSectionProps) {
   const renderContent = () => (
-    <div className="space-y-6">
+    <div className="space-y-6 px-20">
       {subtitle && (
         <Typography
           variant="h6"
@@ -215,10 +215,8 @@ export default function CustomSection({
   };
 
   return (
-    <section className={`py-20 px-8 ${backgroundColor} ${className}`}>
-      <div className={`container mx-auto ${containerClassName}`}>
-        {renderLayout()}
-      </div>
+    <section className={`${backgroundColor} ${className}`}>
+      {renderLayout()}
     </section>
   );
 }

@@ -37,25 +37,13 @@ function Hero() {
               </Button>
             </div>
           </div>
-          <Image
-            width={470}
-            height={576}
-            src="/image/hero.png"
-            alt="team work"
-            className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
-          />
         </div>
       </header>
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
         <div>
-          <div className="flex items-center mb-3">
-            <Typography variant="h3" color="blue-gray">
-              About Us
-            </Typography>
-          </div>
           <Typography
             variant="paragraph"
-            className="font-normal !text-gray-500 lg:w-5/12"
+            className="font-normal !text-gray-500 "
           >
             At Hair Fair, we believe beauty begins with confidence. Our clinic
             offers world-class hair transplantation and advanced skin care

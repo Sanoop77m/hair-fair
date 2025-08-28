@@ -1,4 +1,6 @@
 import { Navbar, Footer } from "@/components";
+import TreatmentSection from "../treatment-section";
+import TreatmentCards from "../treatment-cards";
 
 export default function HairPage() {
   return (
@@ -21,206 +23,83 @@ export default function HairPage() {
           </div>
         </div>
 
-        {/* Services Grid */}
-        <div className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Our Hair Services
-              </h2>
-              <p className="text-lg text-gray-600">
-                Comprehensive hair care solutions tailored to your needs.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Hair Loss Treatment */}
-              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200">
-                <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-amber-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Hair Loss Treatment
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Advanced solutions for hair thinning and baldness using PRP
-                  therapy, hair transplants, and medical treatments.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• PRP Therapy</li>
-                  <li>• Hair Transplantation</li>
-                  <li>• Medical Hair Restoration</li>
-                </ul>
-              </div>
+        {/* Non-invasive Hair Program Section */}
+        <TreatmentSection
+          mainTitle="Hair Transplantation"
+          treatments={[
+            {
+              description:
+                "A permanent solution for baldness. Hair is taken from the back of your head (donor area) and implanted where hair is thinning or missing. The transplanted hair grows naturally and stays for life.",
+              imageSrc: "/image/hero.png",
+              imageAlt: "Scalp treatment procedure with medical professional",
+              imagePosition: "right",
+            },
+          ]}
+          backgroundColor="bg-white"
+          textColor="text-gray-900"
+        />
 
-              {/* Hair Styling */}
-              <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-purple-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Hair Styling
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Professional styling services including cuts, coloring, and
-                  treatments for all hair types.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Haircuts & Styling</li>
-                  <li>• Hair Coloring</li>
-                  <li>• Keratin Treatment</li>
-                </ul>
-              </div>
+        {/* Non-Surgical Hair Loss Treatments */}
+        <TreatmentCards
+          treatments={[
+            {
+              title: "QR678",
+              description:
+                "QR678, non-surgical therapy addresses the causes of thinning hair, helping you regrow hair naturally.",
+              imageSrc: "/image/hero.png",
+              imageAlt: "QR678 treatment with syringe injection to scalp",
+            },
+            {
+              title: "PRP",
+              description:
+                "Platelet Rich Plasma, non-surgical treatment that uses your own blood to stimulate hair growth and improve scalp circulation.",
+              imageSrc: "/image/hero.png",
+              imageAlt: "PRP treatment with yellow liquid syringe injection",
+            },
+            {
+              title: "GFC",
+              description:
+                "Growth Factor Concentrate is a non-surgical hair loss treatment that stimulates follicles for thicker, fuller hair.",
+              imageSrc: "/image/hero.png",
+              imageAlt:
+                "GFC treatment with clear syringe containing growth factors",
+            },
+          ]}
+          backgroundColor="bg-white"
+          textColor="text-gray-900"
+        />
 
-              {/* Scalp Treatment */}
-              <div className="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6 border border-green-200">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-green-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Scalp Treatment
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Specialized treatments for scalp health including dandruff,
-                  psoriasis, and scalp rejuvenation.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Scalp Exfoliation</li>
-                  <li>• Dandruff Treatment</li>
-                  <li>• Scalp Rejuvenation</li>
-                </ul>
-              </div>
-
-              {/* Hair Extensions */}
-              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-blue-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Hair Extensions
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  High-quality hair extensions for length, volume, and style
-                  transformation.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Clip-in Extensions</li>
-                  <li>• Tape-in Extensions</li>
-                  <li>• Sew-in Extensions</li>
-                </ul>
-              </div>
-
-              {/* Hair Care Products */}
-              <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-6 border border-red-200">
-                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-red-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Hair Care Products
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Premium hair care products formulated for different hair types
-                  and concerns.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Shampoos & Conditioners</li>
-                  <li>• Hair Masks & Treatments</li>
-                  <li>• Styling Products</li>
-                </ul>
-              </div>
-
-              {/* Consultation */}
-              <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-xl p-6 border border-yellow-200">
-                <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
-                  <svg
-                    className="w-6 h-6 text-yellow-600"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  Free Consultation
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Book a free consultation with our hair specialists to discuss
-                  your hair goals and concerns.
-                </p>
-                <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Hair Analysis</li>
-                  <li>• Treatment Planning</li>
-                  <li>• Personalized Advice</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TreatmentSection
+          mainTitle="Non-invasive Hair Program"
+          treatments={[
+            {
+              title: "Scalp Cure",
+              description:
+                "Scalp Cure is your ultimate solution for a healthy, revitalized scalp. Combining advanced dermatological expertise with proven treatments, we address concerns like hair thinning, dandruff, excess oil, and scalp sensitivity. Our customized procedures promote scalp health, strengthen hair follicles, and enhance overall hair vitality. Whether you need deep cleansing, hydration, or targeted therapy, Scalp Cure restores balance and rejuvenates your scalp for long-term wellness.",
+              imageSrc: "/image/hero.png",
+              imageAlt: "Scalp treatment procedure with medical professional",
+              imagePosition: "right",
+            },
+            {
+              title: "Quick Fix",
+              description:
+                "Quick Fix is your go-to solution for instant care and visible results. Designed for fast and effective treatment, our targeted procedures refresh, restore, and revitalize your hair and scalp. From quick hydration boosts to scalp detox or instant glow, we provide professional care in minutes. Experience immediate improvement with our specialized quick-fix treatments that deliver noticeable results when you need them most.",
+              imageSrc: "/image/hero.png",
+              imageAlt: "Quick fix treatment with micro-pigmentation procedure",
+              imagePosition: "left",
+            },
+            {
+              title: "Other Solutions",
+              description:
+                "Beyond scalp and quick-fix treatments, we offer a range of specialized solutions tailored to your unique hair and scalp needs. Whether you need to strengthen weak hair, balance scalp health, or address specific concerns, our expert-driven approaches ensure long-lasting results. We restore vitality, enhance texture, and promote overall wellness with comprehensive treatment options designed for your individual requirements.",
+              imageSrc: "/image/hero.png",
+              imageAlt: "Person examining hair loss in mirror",
+              imagePosition: "right",
+            },
+          ]}
+          backgroundColor="bg-white"
+          textColor="text-gray-900"
+        />
 
         {/* Treatment Process */}
         <div className="py-16 bg-gray-50">
@@ -287,16 +166,16 @@ export default function HairPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="py-16 bg-gradient-to-r from-amber-500 to-orange-500">
+        <div className="py-16 bg-gray-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-white mb-4">
               Ready to Transform Your Hair?
             </h2>
-            <p className="text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
               Book your consultation today and take the first step towards
               achieving the hair you&apos;ve always dreamed of.
             </p>
-            <button className="bg-white text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors">
+            <button className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors">
               Book Consultation
             </button>
           </div>

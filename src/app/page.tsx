@@ -5,6 +5,7 @@ import { Navbar, Footer } from "@/components";
 import Hero from "./hero";
 // import VideoIntro from "./video-intro";
 import CustomSection from "./custom-section";
+import ImageGallery from "./image-gallery";
 import Feature from "./feature";
 // import MobileConvenience from "./mobile-convenience";
 // import Testimonials from "./testimonials";
@@ -41,6 +42,9 @@ and healthy."
         imageHeight={400}
         buttonText="Know More"
       />
+
+      <ImageGallery />
+
       <Feature />
       {/* <MobileConvenience /> */}
       {/* <Testimonials /> */}
