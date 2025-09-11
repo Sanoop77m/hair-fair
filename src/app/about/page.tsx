@@ -14,8 +14,8 @@ export default function AboutPage() {
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 We are dedicated to providing the highest quality hair and skin
-                care solutions, combining advanced technology with natural
-                ingredients for optimal results.
+                care solutions, combining advanced technology for
+                optimal results.
               </p>
             </div>
           </div>

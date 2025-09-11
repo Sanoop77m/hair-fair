@@ -7,16 +7,19 @@ export default function SkinPage() {
       <Navbar />
       <div className="min-h-screen bg-[#212121]">
         {/* Hero Section */}
-        <div className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8">
+        <div
+          className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/image/skin-cover.jpg')" }}
+        >
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
               <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
                 Skin <span className="text-gray-600">Treatments</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-                Rejuvenate your skin with our advanced dermatological
-                treatments. From anti-aging to acne solutions, we help you
-                achieve radiant, healthy skin.
+                Rejuvenate your skin with our advanced treatments. From
+                anti-aging to acne solutions, we help you achieve
+                radiant, healthy skin.
               </p>
             </div>
           </div>
@@ -25,78 +28,48 @@ export default function SkinPage() {
         <TreatmentCards
           treatments={[
             {
-              title: "QR678",
+              title: "Face PRP (Platelet Rich Plasma Therapy)",
               description:
-                "QR678, non-surgical therapy addresses the causes of thinning hair, helping you regrow hair naturally.",
+                "A natural glow from within. Use your own blood’s platelets to stimulate collagen production and skin rejuvenation. Improves skin texture, reduces fine lines, wrinkles, and acne scars. Helps in enhancing overall radiance. Minimal downtime and completely natural, safe therapy. Ideal for: Anti-aging, glow therapy, acne scar reduction, dull skin.",
               imageSrc: "/image/hero.png",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
-              title: "PRP",
+              title: "Chemical Peels",
               description:
-                "Platelet Rich Plasma, non-surgical treatment that uses your own blood to stimulate hair growth and improve scalp circulation.",
+                "Renewed, refreshed, radiant skin. Gentle exfoliation that removes dead skin layers and promotes new skin growth. Reduces pigmentation, acne marks, sun damage, and uneven skin tone. Available in light, medium, or deep peels depending on your skin’s needs. Enhances overall skin brightness, smoothness, and texture. Ideal for: Pigmentation issues, acne-prone skin, tanning, dull complexion.",
               imageSrc: "/image/hero.png",
               imageAlt: "PRP treatment with yellow liquid syringe injection",
             },
             {
-              title: "GFC",
+              title: "Laser Hair Removal",
               description:
-                "Growth Factor Concentrate is a non-surgical hair loss treatment that stimulates follicles for thicker, fuller hair.",
+                "Smooth, hair-free skin that lasts. Permanent reduction of unwanted hair using advanced laser technology. Safe, painless, and effective for all skin types. Quick sessions with no downtime. Improves skin texture and reduces ingrown hairs. Ideal for: Long-term hair removal on face, arms, legs, and body.",
               imageSrc: "/image/hero.png",
               imageAlt:
                 "GFC treatment with clear syringe containing growth factors",
             },
             {
-              title: "QR678",
+              title: "Glutathione Therapy",
               description:
-                "QR678, non-surgical therapy addresses the causes of thinning hair, helping you regrow hair naturally.",
+                "Glow from the inside out. Powerful antioxidant therapy that lightens and brightens the skin naturally. Detoxifies the body, fights free radicals, and improves overall skin health. Can be combined with other treatments for enhanced skin rejuvenation. Ideal for: Skin brightening, anti-aging, dull complexion, detox support. ",
+
               imageSrc: "/image/hero.png",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
-              title: "QR678",
+              title: "Warts Removal",
               description:
-                "QR678, non-surgical therapy addresses the causes of thinning hair, helping you regrow hair naturally.",
+                "Safe and effective removal of warts, moles, and small skin growths. Advanced dermatological techniques ensure minimal discomfort and quick recovery. Reduces the risk of recurrence with proper aftercare. Ideal for: Warts, moles, skin tags, or small growths causing cosmetic concern.",
               imageSrc: "/image/hero.png",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
-              title: "QR678",
+              title: "Advanced Facials & Skin Rejuvenation",
               description:
-                "QR678, non-surgical therapy addresses the causes of thinning hair, helping you regrow hair naturally.",
+                "Luxury skincare, clinical precision. Customized facials targeting hydration, anti-aging, brightening, or acne care. Deep cleansing, extraction, exfoliation, and nutrient infusion for radiant skin. Combines medical-grade products and clinical expertise for long-lasting results. Ideal for: Instant glow, hydration, anti-aging maintenance, skin nourishment.",
               imageSrc: "/image/hero.png",
               imageAlt: "QR678 treatment with syringe injection to scalp",
-            },
-          ]}
-          backgroundColor="bg-white"
-          textColor="text-gray-900"
-        />
-        <TreatmentSection
-          mainTitle="Non-invasive Hair Program"
-          treatments={[
-            {
-              title: "Scalp Cure",
-              description:
-                "Scalp Cure is your ultimate solution for a healthy, revitalized scalp. Combining advanced dermatological expertise with proven treatments, we address concerns like hair thinning, dandruff, excess oil, and scalp sensitivity. Our customized procedures promote scalp health, strengthen hair follicles, and enhance overall hair vitality. Whether you need deep cleansing, hydration, or targeted therapy, Scalp Cure restores balance and rejuvenates your scalp for long-term wellness.",
-              imageSrc: "/image/hero.png",
-              imageAlt: "Scalp treatment procedure with medical professional",
-              imagePosition: "right",
-            },
-            {
-              title: "Quick Fix",
-              description:
-                "Quick Fix is your go-to solution for instant care and visible results. Designed for fast and effective treatment, our targeted procedures refresh, restore, and revitalize your hair and scalp. From quick hydration boosts to scalp detox or instant glow, we provide professional care in minutes. Experience immediate improvement with our specialized quick-fix treatments that deliver noticeable results when you need them most.",
-              imageSrc: "/image/hero.png",
-              imageAlt: "Quick fix treatment with micro-pigmentation procedure",
-              imagePosition: "left",
-            },
-            {
-              title: "Other Solutions",
-              description:
-                "Beyond scalp and quick-fix treatments, we offer a range of specialized solutions tailored to your unique hair and scalp needs. Whether you need to strengthen weak hair, balance scalp health, or address specific concerns, our expert-driven approaches ensure long-lasting results. We restore vitality, enhance texture, and promote overall wellness with comprehensive treatment options designed for your individual requirements.",
-              imageSrc: "/image/hero.png",
-              imageAlt: "Person examining hair loss in mirror",
-              imagePosition: "right",
             },
           ]}
           backgroundColor="bg-white"
@@ -114,7 +87,7 @@ export default function SkinPage() {
                 A comprehensive 5-step process to achieve healthy, radiant skin.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl font-bold text-white">1</span>
@@ -142,17 +115,6 @@ export default function SkinPage() {
                   <span className="text-2xl font-bold text-white">3</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Planning
-                </h3>
-                <p className="text-gray-600">
-                  Customized treatment plan tailored to your needs.
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-white">4</span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Treatment
                 </h3>
                 <p className="text-gray-600">
@@ -161,7 +123,7 @@ export default function SkinPage() {
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-white">5</span>
+                  <span className="text-2xl font-bold text-white">4</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Follow-up
@@ -182,7 +144,7 @@ export default function SkinPage() {
             </h2>
             <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
               Book your consultation today and discover the path to healthy,
-              beautiful skin with our expert dermatologists.
+              beautiful skin with our experts.
             </p>
             <button className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               Book Consultation

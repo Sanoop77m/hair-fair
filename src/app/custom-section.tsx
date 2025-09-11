@@ -132,7 +132,7 @@ export default function CustomSection({
 
   const renderImage = () => (
     <div
-      className={`flex ${
+      className={`flex p-10 ${
         layout === "left-image" ? "justify-start" : "justify-end"
       }`}
     >
@@ -141,7 +141,7 @@ export default function CustomSection({
         height={imageHeight}
         src={imageSrc}
         alt={imageAlt}
-        className="rounded-lg shadow-lg"
+        className="rounded-lg"
       />
     </div>
   );
@@ -175,7 +175,7 @@ export default function CustomSection({
                   height={imageHeight}
                   src={imageSrc}
                   alt={imageAlt}
-                  className="rounded-lg shadow-lg mx-auto"
+                  className="rounded-lg mx-auto"
                 />
               </div>
             )}

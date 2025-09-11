@@ -108,18 +108,8 @@ export function Navbar() {
           <NavItem href="/skin">Skin</NavItem>
           <NavItem href="/contact">Contact Us</NavItem>
           <NavItem href="/faq">FAQ</NavItem>
-          {/* <NavItem href="https://www.material-tailwind.com/docs/react/installation">
-            Docs
-          </NavItem> */}
         </ul>
         <div className="hidden gap-2 lg:flex lg:items-center">
-          <IconButton
-            variant="text"
-            color={isScrolling ? "gray" : "white"}
-            size="sm"
-          >
-            <i className="fa-brands fa-twitter text-base" />
-          </IconButton>
           <IconButton
             variant="text"
             color={isScrolling ? "gray" : "white"}
@@ -134,11 +124,6 @@ export function Navbar() {
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
-              Blocks
-            </Button>
-          </a>
         </div>
         <IconButton
           variant="text"
@@ -162,25 +147,14 @@ export function Navbar() {
             <NavItem href="/skin">Skin</NavItem>
             <NavItem href="/contact">Contact Us</NavItem>
             <NavItem href="/faq">FAQ</NavItem>
-            <NavItem href="https://www.material-tailwind.com/docs/react/installation">
-              Docs
-            </NavItem>
           </ul>
           <div className="mt-4 flex items-center gap-2">
-            <IconButton variant="text" color="gray" size="sm">
-              <i className="fa-brands fa-twitter text-base" />
-            </IconButton>
             <IconButton variant="text" color="gray" size="sm">
               <i className="fa-brands fa-facebook text-base" />
             </IconButton>
             <IconButton variant="text" color="gray" size="sm">
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
-            {/* <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray" size="sm" className="ml-auto">
-                Blocks
-              </Button>
-            </a> */}
           </div>
         </div>
       </Collapse>

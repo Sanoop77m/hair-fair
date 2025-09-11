@@ -7,7 +7,10 @@ import { BookOpen, MessageSquare } from "lucide-react";
 function Hero() {
   return (
     <div className="relative min-h-screen w-full">
-      <header className="grid !min-h-[49rem] bg-gray-900 px-8">
+      <header
+        className="grid !min-h-[49rem] bg-cover bg-fixed bg-no-repeat px-8"
+        style={{ backgroundImage: "url('/image/home%20cover.jpg')" }}
+      >
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography variant="h1" color="white" className="mb-4">
@@ -17,8 +20,9 @@ function Hero() {
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Reprehenderit, distinctio eos.
+              At Hair Fair, we blend advanced medical expertise with luxurious
+              care to restore your hair and skin. Every treatment is designed to
+              deliver safe, lasting, and confidence-boosting results
             </Typography>
             <div className="mb-4 flex items-center">
               <h6 className="text-white text-lg font-semibold">Get in touch</h6>
@@ -45,11 +49,19 @@ function Hero() {
             variant="paragraph"
             className="font-normal !text-gray-500 "
           >
-            At Hair Fair, we believe beauty begins with confidence. Our clinic
-            offers world-class hair transplantation and advanced skin care
-            treatments in a premium, trusted, and healing environment.Our team
-            combines cutting-edge technology with personalized care, ensuring
-            natural, safe, and lasting results
+            At Hair Fair, we believe that healthy hair and glowing skin are the
+            true foundations of confidence. The name “Hair Fair” was chosen
+            because it represents fairness, balance, and beauty—a promise of
+            transparent care and genuine results.
+            <br />
+            The word “Fair” also reflects our commitment to ethical practices,
+            honest consultations, and treatments tailored to each client’s
+            needs. It’s not just about looking good, but about feeling
+            confident, empowered, and renewed.
+            <br />
+            With advanced science-backed solutions and a touch of luxury, Hair
+            Fair is more than a clinic—it’s a destination where you restore your
+            beauty, redefine yourself, and shine with confidence.
           </Typography>
         </div>
       </div>

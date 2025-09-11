@@ -8,7 +8,10 @@ export default function HairPage() {
       <Navbar />
       <div className="min-h-screen bg-[#212121]">
         {/* Hero Section */}
-        <div className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8">
+        <div
+          className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8 bg-cover bg-left bg-no-repeat"
+          style={{ backgroundImage: "url('/image/hair-cover.jpg')" }}
+        >
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
               <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
@@ -16,8 +19,8 @@ export default function HairPage() {
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
                 Transform your hair with our advanced treatments and expert
-                care. From hair loss to styling, we have solutions for every
-                hair concern.
+                care. From hair loss to balding, we have solutions for
+                every hair concern.
               </p>
             </div>
           </div>
