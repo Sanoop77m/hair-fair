@@ -6,7 +6,10 @@ export default function AboutPage() {
       <Navbar />
       <div className="min-h-screen bg-[#212121]">
         {/* Hero Section */}
-        <div className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8">
+        <div
+          className="pt-[10%] pb-16 px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/image/about-cover.jpg')" }}
+        >
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
               <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">

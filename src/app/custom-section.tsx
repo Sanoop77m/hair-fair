@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { Button, Typography } from "@material-tailwind/react";
 
 interface CustomSectionProps {
@@ -57,6 +58,7 @@ export default function CustomSection({
   className = "",
   containerClassName = "",
 }: CustomSectionProps) {
+  const router = useRouter();
   const renderContent = () => (
     <div className="space-y-6 px-20">
       {subtitle && (
@@ -120,7 +122,15 @@ export default function CustomSection({
             size="lg"
             color={buttonColor as any}
             className="flex items-center gap-2"
-            onClick={() => buttonLink && window.open(buttonLink, "_blank")}
+            onClick={() => {
+              if (!buttonLink) return;
+              const isExternal = /^(https?:)?\/\//i.test(buttonLink);
+              if (isExternal) {
+                window.location.href = buttonLink;
+              } else {
+                router.push(buttonLink);
+              }
+            }}
             {...({} as any)}
           >
             {buttonText}

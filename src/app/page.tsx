@@ -27,10 +27,11 @@ export default function Campaign() {
         imageWidth={500}
         imageHeight={400}
         buttonText="Know More"
+        buttonLink="/hair"
       />
       <CustomSection
         layout="left-image"
-        backgroundColor="bg-gray-100"
+        backgroundColor="bg-white"
         textColor="text-gray-900"
         title="Skin Treatment"
         description="At Hair Fair, we provide advanced skin care solutions to help you achieve healthy, glowing, and youthful skin. Our treatments include glutathione therapy for skin brightening, chemical peels to improve texture and remove dead skin, mesotherapy for deep hydration and rejuvenation, laser hair removal for smooth, hair-free skin, and warts  removal to restore clarity. Using clinically proven techniques and personalized treatment plans, our experts ensure safe, effective, and natural results tailored to your skin type and concerns."
@@ -39,9 +40,10 @@ export default function Campaign() {
         imageWidth={500}
         imageHeight={400}
         buttonText="Know More"
+        buttonLink="/skin"
       />
 
-      <ImageGallery />
+      {/* <ImageGallery /> */}
 
       <Feature />
       {/* <MobileConvenience /> */}
