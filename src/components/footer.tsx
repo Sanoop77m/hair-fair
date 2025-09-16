@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="bg-black px-8 pt-12">
       <div className="container mx-auto">
-        <div className="flex flex-wrap justify-center gap-8 md:justify-between">
+        <div className="flex flex-row justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
               as="a"
@@ -21,8 +21,9 @@ export function Footer() {
             </Typography>
             <Typography color="white" className="mb-12 font-normal">
               At Hair Fair, we blend advanced medical expertise with luxurious
-              care to restore your hair and skin.<br /> Every treatment is designed to
-              deliver safe, lasting, and confidence-boosting results
+              care to restore your hair and skin.
+              <br /> Every treatment is designed to deliver safe, lasting, and
+              confidence-boosting results
             </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
@@ -40,6 +41,18 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="text-right mt-auto">
+            <Typography color="white" className="mb-2 font-normal">
+              hairfairclinic@gmail.com
+            </Typography>
+            <Typography color="white" className="mb-2 font-normal">
+              9048406969
+            </Typography>
+            <Typography color="white" className="mb-2 font-normal">
+              2nd Floor, Priya Tower, <br /> Thurakkal Baputty Bypass Rd, <br /> Karuvambram,
+              Manjeri,<br /> Kerala 676121
+            </Typography>
           </div>
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">

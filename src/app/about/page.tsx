@@ -42,7 +42,7 @@ export default function AboutPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
-                    Expert dermatologists and trichologists
+                    Expert cosmetologists and trichologists
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-white rounded-full mr-3"></span>

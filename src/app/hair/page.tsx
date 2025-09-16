@@ -33,8 +33,8 @@ export default function HairPage() {
             {
               description:
                 "A permanent solution for baldness. Hair is taken from the back of your head (donor area) and implanted where hair is thinning or missing. The transplanted hair grows naturally and stays for life.",
-              imageSrc: "/image/hero.png",
-              imageAlt: "Scalp treatment procedure with medical professional",
+              imageSrc: "/image/Hair-Transplantation.jpg",
+              imageAlt: "Hair transplantation",
               imagePosition: "right",
             },
           ]}
@@ -49,21 +49,21 @@ export default function HairPage() {
               title: "QR678",
               description:
                 "QR678, non-surgical therapy addresses the causes of thinning hair, helping you regrow hair naturally.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/QR678.jpg",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
               title: "PRP",
               description:
                 "Platelet Rich Plasma, non-surgical treatment that uses your own blood to stimulate hair growth and improve scalp circulation.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/PRP.jpg",
               imageAlt: "PRP treatment with yellow liquid syringe injection",
             },
             {
               title: "GFC",
               description:
                 "Growth Factor Concentrate is a non-surgical hair loss treatment that stimulates follicles for thicker, fuller hair.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/GFC.jpg",
               imageAlt:
                 "GFC treatment with clear syringe containing growth factors",
             },
@@ -79,7 +79,7 @@ export default function HairPage() {
               title: "Scalp Cure",
               description:
                 "Scalp Cure is your ultimate solution for a healthy, revitalized scalp. Combining advanced dermatological expertise with proven treatments, we address concerns like hair thinning, dandruff, excess oil, and scalp sensitivity. Our customized procedures promote scalp health, strengthen hair follicles, and enhance overall hair vitality. Whether you need deep cleansing, hydration, or targeted therapy, Scalp Cure restores balance and rejuvenates your scalp for long-term wellness.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Scalp-Cure.jpg",
               imageAlt: "Scalp treatment procedure with medical professional",
               imagePosition: "right",
             },
@@ -87,7 +87,7 @@ export default function HairPage() {
               title: "Quick Fix",
               description:
                 "Quick Fix is your go-to solution for instant care and visible results. Designed for fast and effective treatment, our targeted procedures refresh, restore, and revitalize your hair and scalp. From quick hydration boosts to scalp detox or instant glow, we provide professional care in minutes. Experience immediate improvement with our specialized quick-fix treatments that deliver noticeable results when you need them most.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Quick-Fix.jpg",
               imageAlt: "Quick fix treatment with micro-pigmentation procedure",
               imagePosition: "left",
             },
@@ -95,7 +95,7 @@ export default function HairPage() {
               title: "Other Solutions",
               description:
                 "Beyond scalp and quick-fix treatments, we offer a range of specialized solutions tailored to your unique hair and scalp needs. Whether you need to strengthen weak hair, balance scalp health, or address specific concerns, our expert-driven approaches ensure long-lasting results. We restore vitality, enhance texture, and promote overall wellness with comprehensive treatment options designed for your individual requirements.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Other-Solutions.jpg",
               imageAlt: "Person examining hair loss in mirror",
               imagePosition: "right",
             },
@@ -117,8 +117,8 @@ export default function HairPage() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-amber-600">1</span>
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">1</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Consultation
@@ -129,8 +129,8 @@ export default function HairPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-amber-600">2</span>
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">2</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Assessment
@@ -141,20 +141,18 @@ export default function HairPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-amber-600">3</span>
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">3</span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Treatment
-                </h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Treatment</h3>
                 <p className="text-gray-600">
                   Professional treatment using advanced techniques and premium
                   products.
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-amber-600">4</span>
+                <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl font-bold text-white">4</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Follow-up

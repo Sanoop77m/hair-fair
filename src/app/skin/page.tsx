@@ -31,21 +31,21 @@ export default function SkinPage() {
               title: "Face PRP (Platelet Rich Plasma Therapy)",
               description:
                 "A natural glow from within. Use your own blood’s platelets to stimulate collagen production and skin rejuvenation. Improves skin texture, reduces fine lines, wrinkles, and acne scars. Helps in enhancing overall radiance. Minimal downtime and completely natural, safe therapy. Ideal for: Anti-aging, glow therapy, acne scar reduction, dull skin.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Face-PRP.jpg",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
               title: "Chemical Peels",
               description:
                 "Renewed, refreshed, radiant skin. Gentle exfoliation that removes dead skin layers and promotes new skin growth. Reduces pigmentation, acne marks, sun damage, and uneven skin tone. Available in light, medium, or deep peels depending on your skin’s needs. Enhances overall skin brightness, smoothness, and texture. Ideal for: Pigmentation issues, acne-prone skin, tanning, dull complexion.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Chemical-Peels.jpg",
               imageAlt: "PRP treatment with yellow liquid syringe injection",
             },
             {
               title: "Laser Hair Removal",
               description:
                 "Smooth, hair-free skin that lasts. Permanent reduction of unwanted hair using advanced laser technology. Safe, painless, and effective for all skin types. Quick sessions with no downtime. Improves skin texture and reduces ingrown hairs. Ideal for: Long-term hair removal on face, arms, legs, and body.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Laser-Hair-Removal.jpg",
               imageAlt:
                 "GFC treatment with clear syringe containing growth factors",
             },
@@ -54,21 +54,21 @@ export default function SkinPage() {
               description:
                 "Glow from the inside out. Powerful antioxidant therapy that lightens and brightens the skin naturally. Detoxifies the body, fights free radicals, and improves overall skin health. Can be combined with other treatments for enhanced skin rejuvenation. Ideal for: Skin brightening, anti-aging, dull complexion, detox support. ",
 
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Glutathione-Therapy.jpg",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
               title: "Warts Removal",
               description:
                 "Safe and effective removal of warts, moles, and small skin growths. Advanced dermatological techniques ensure minimal discomfort and quick recovery. Reduces the risk of recurrence with proper aftercare. Ideal for: Warts, moles, skin tags, or small growths causing cosmetic concern.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Warts.jpg",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
             {
               title: "Advanced Facials & Skin Rejuvenation",
               description:
                 "Luxury skincare, clinical precision. Customized facials targeting hydration, anti-aging, brightening, or acne care. Deep cleansing, extraction, exfoliation, and nutrient infusion for radiant skin. Combines medical-grade products and clinical expertise for long-lasting results. Ideal for: Instant glow, hydration, anti-aging maintenance, skin nourishment.",
-              imageSrc: "/image/hero.png",
+              imageSrc: "/image/Facials.jpg",
               imageAlt: "QR678 treatment with syringe injection to scalp",
             },
           ]}
